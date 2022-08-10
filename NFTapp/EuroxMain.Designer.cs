@@ -33,11 +33,14 @@
             // 
             // button1
             // 
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button1.Image = global::NFTapp.Properties.Resources.login_button;
             this.button1.Location = new System.Drawing.Point(615, 747);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(376, 85);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = " ";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 

@@ -64,6 +64,8 @@ namespace NFTapp
                 case "purple.cs":
                     Console.Clear();
                     runForm();
+                    Console.Clear();
+                    ConsoleMain.ConsoleMenu();
                     break;
                 case "exit":
                     Console.Clear();
@@ -75,6 +77,11 @@ namespace NFTapp
                     Console.Clear();
                     Console.WriteAscii("EUROX NFT SYSTEMS", Color.Violet);
                     Environment.Exit(0);
+                    break;
+
+                case "nose":
+                    Console.Clear();
+                    Test.call_Components();
                     break;
             }
         }
@@ -89,7 +96,7 @@ namespace NFTapp
 
             Console.Clear();
             ConsoleMenu();
-           //This is a test comment, i wanna kill myself. please fucking send help
+           
         }
 
 
