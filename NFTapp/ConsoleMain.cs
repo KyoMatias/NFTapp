@@ -89,7 +89,7 @@ namespace NFTapp
 
             Console.Clear();
             ConsoleMenu();
-           
+           //This is a test comment, i wanna kill myself. please fucking send help
         }
 
 
