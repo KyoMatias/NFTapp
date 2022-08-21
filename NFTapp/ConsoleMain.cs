@@ -98,7 +98,7 @@ namespace NFTapp
             ConsoleMenu();
            
         }
-
+        //Sample Text for Claro
 
 
     }

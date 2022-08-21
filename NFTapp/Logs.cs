@@ -13,5 +13,6 @@ namespace NFTapp
         //Sitrep Creating Console Components (Console.Title) [/] 10:30PM 07/04/2022.
         //Sitrep Creating Console Lines[/] 12:05AM.\
         //Sitrep Updated And Finished The Console Body (Console.Colors)
+
     }
 }

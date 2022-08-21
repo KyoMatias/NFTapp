@@ -56,6 +56,7 @@
     <Compile Include="EuroxMain.Designer.cs">
       <DependentUpon>EuroxMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms_ProgressBar_Color.cs" />
     <Compile Include="Logs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,6 +82,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\login button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

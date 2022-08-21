@@ -27,5 +27,10 @@ namespace NFTapp
         {
             Environment.Exit(0);
         }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+            progressBar1.ForeColor = Color.Aqua;
+        }
     }
 }
