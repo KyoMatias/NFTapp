@@ -83,6 +83,11 @@ namespace NFTapp
                     Console.Clear();
                     Test.call_Components();
                     break;
+
+                case "options":
+                    Console.Clear();
+                    break;
+
             }
         }
             public static void runForm() { 
@@ -98,7 +103,7 @@ namespace NFTapp
             ConsoleMenu();
            
         }
-        //Sample Text for Claro
+
 
 
     }
