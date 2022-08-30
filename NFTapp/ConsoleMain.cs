@@ -90,15 +90,19 @@ namespace NFTapp
 
             }
         }
+            // this method creates and runs the application via windows .net 
+    
             public static void runForm() { 
-            
+             // these statements below initiates the software on the console.
             Console.WriteLine("Running The Software...", Color.PaleVioletRed);
             Thread.Sleep(500);
-
+            
+             //these variables enables the .net form to run with prerequisites.
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new EuroxMain());
-
+            
+              //These statements clear the console.
             Console.Clear();
             ConsoleMenu();
            
