@@ -88,6 +88,10 @@ namespace NFTapp
                     Console.Clear();
                     break;
 
+                case "Fuck":
+                    Console.Clear();
+                    console.WriteLine("Fuck my Life, Good Job Typing That shit");
+                    break;
             }
         }
             // this method creates and runs the application via windows .net 
