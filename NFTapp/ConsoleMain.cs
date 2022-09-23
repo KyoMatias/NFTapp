@@ -85,6 +85,13 @@ namespace NFTapp
                     */ 
 
                 case "exit":
+
+                    /* the exit case is the exit code for the program, its functionality 
+                    is a clean console with an asciii design 
+                    of the EUROX Title that has a countdown timer until the program exits
+                    Future development plans on closing the database, servers, and main program 
+                    with codes to terminate the process.
+                    */
                     Console.Clear();
                     for (int a = 3; a >= 0; a--)
                     {
