@@ -103,6 +103,11 @@ namespace NFTapp
                     Environment.Exit(0);
                     break;
 
+
+                    /*
+                    Nose is the replication of the nose.py from python, i try to replicate or make a working formula, hence the nose name
+                    of the case switch
+                    */
                 case "nose":
                     Console.Clear();
                     Test.call_Components();
@@ -139,10 +144,9 @@ namespace NFTapp
            
         }
 
-
+        //[Logs Matias 11/14/2022 - 9:12 am @ CIIT Interweave Campus]
 
     }
     }
-
 
 
